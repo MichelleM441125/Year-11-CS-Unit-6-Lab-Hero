@@ -7,6 +7,14 @@ import static org.junit.Assert.assertTrue;
 
 public class HeroTester {
 
+    public String name;
+    public int hitPoints;
+
+    public void Hero(String name)
+    {
+        this.name = name;
+    }
+
     private Hero hero1;
     private Hero hero2;
 
